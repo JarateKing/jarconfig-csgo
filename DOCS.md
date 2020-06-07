@@ -10,6 +10,25 @@ bind 1 "jar_example"
 
 Which will do the `jar_example` function every time the `1` key is pressed.
 
+### Movement
+
+There are several binds that are intended to replace the basic movement binds. They are:
+
+```
+bind w "+jar_forward"
+bind a "+jar_left"
+bind s "+jar_back"
+bind d "+jar_right"
+bind space "+jar_jump"
+bind ctrl "+jar_crouch"
+```
+
+They come with several options found in `settings.cfg` as well:
+
+* `alias jar_on_movement ""` exists so that you can perform commands when you move. For example, `"r_cleardecals"` will remove all bullet holes / blood splatters when you move.
+* `jar_mov_null=disable` lets you either enable or disable null-cancelling movement, where pressing `A` then `D` (while `A` is still held down) will make you move right rather than stand still.
+* `jar_mov_cjump=disable` lets you either enable or disable crouchjumps, where you will crouch midair as you jump.
+
 ### Jumpthrow
 
 The jumpthrow keybind is a simple:
