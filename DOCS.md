@@ -10,6 +10,14 @@ bind 1 "jar_example"
 
 Which will do the `jar_example` function every time the `1` key is pressed.
 
+### Jumpthrow
+
+The jumpthrow keybind is a simple:
+
+```
++jar_jumpthrow
+```
+
 ### Buyscript
 
 There are many different keybinds that can be used for buyscript:
