@@ -55,6 +55,9 @@ Combos = [
 print('alias jar_buydrop ""')
 print('alias +jar_buydrop "alias jar_buydrop drop"')
 print('alias -jar_buydrop "alias jar_buydrop none"')
+print('alias jar_buydrop_toggle "jar_buydrop_state1"')
+print('alias jar_buydrop_state1 "alias jar_buydrop drop; alias jar_buydrop_toggle jar_buydrop_state2"')
+print('alias jar_buydrop_state2 "alias jar_buydrop none; alias jar_buydrop_toggle jar_buydrop_state1"')
 print()
 
 for wep in Buys:
