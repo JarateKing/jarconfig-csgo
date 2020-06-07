@@ -52,8 +52,15 @@ Combos = [
 	[ "incgrenade", "molotov" ],
 ]
 
+print('alias jar_buydrop ""')
+print('alias +jar_buydrop "alias jar_buydrop drop"')
+print('alias -jar_buydrop "alias jar_buydrop none"')
+print()
+
 for wep in Buys:
-	print('alias jar_buy_', wep, ' "buy ', wep, '"', sep='')
+	print('alias jar_buy_', wep, ' "buy ', wep, '; jar_buydrop"', sep='')
+	
+print()
 
 for weps in Combos:
-	print('alias jar_buy_', weps[0], '+', weps[1], ' "buy ', weps[0], '; buy ', weps[1], '"', sep='')
+	print('alias jar_buy_', weps[0], '+', weps[1], ' "buy ', weps[0], '; buy ', weps[1], '; jar_buydrop"', sep='')
