@@ -61,9 +61,9 @@ print('alias jar_buydrop_state2 "alias jar_buydrop none; alias jar_buydrop_toggl
 print()
 
 for wep in Buys:
-	print('alias jar_buy_', wep, ' "buy ', wep, '; jar_buydrop"', sep='')
+	print('alias jar_buy_', wep, ' "buy ', wep, '; use weapon_', wep, '; jar_buydrop"', sep='')
 	
 print()
 
 for weps in Combos:
-	print('alias jar_buy_', weps[0], '+', weps[1], ' "buy ', weps[0], '; buy ', weps[1], '; jar_buydrop"', sep='')
+	print('alias jar_buy_', weps[0], '+', weps[1], ' "buy ', weps[0], '; buy ', weps[1], '; use weapon_', weps[0], '; use weapon_', weps[1], '; jar_buydrop"', sep='')
