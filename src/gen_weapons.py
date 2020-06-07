@@ -49,6 +49,7 @@ Combos = [
 	[ "mag7", "sawedoff" ],
 	[ "fiveseven", "tec9" ],
 	[ "deagle", "revolver" ],
+	[ "incgrenade", "molotov" ],
 ]
 
 for wep in Buys:
