@@ -2,6 +2,14 @@
 
 ## Binds
 
+Binds are functions that are intended to be bound to a key. For example, if you were to have a function like `jar_example` that is meant as a bind, you could use it like:
+
+```
+bind 1 "jar_example"
+```
+
+Which will do the `jar_example` function every time the `1` key is pressed.
+
 ### Buyscript
 
 There are many different keybinds that can be used for buyscript:
