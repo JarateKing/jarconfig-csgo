@@ -1,6 +1,6 @@
 # Jarconfig CSGO
 
-A config for CSGO.
+A config for CSGO intended to act as a framework to build upon, designed to provide an easy interface to various settings and integrated scripts.
 
 ## Install
 
